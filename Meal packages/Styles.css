@@ -1,0 +1,104 @@
+body {
+  font-family: "Arial", sans-serif; /* this sets the font-family for the entire document to Arial */
+  margin: 0; /* this removes the default margin from the body element */
+  padding: 0; /* this removes the default padding from the body element */
+  background-color: #003366;
+}
+
+header {
+  background-color: #003366; /* this sets the background color of the header to light gray */
+  padding: 20px; /* this adds a padding of 20px to the header element */
+  text-align: center; /* this centers the text inside the header element */
+}
+
+nav ul {
+  list-style-type: none; /* this removes the bullet points from the unordered list */
+  margin: 0; /* this removes the default margin from the ul element */
+  padding: 0; /* this removes the default padding from the ul element */
+  overflow: hidden; /* this hides the overflowing content */
+  background-color: #333; /* this sets the background color of the nav to dark gray */
+}
+
+nav li {
+  float: left; /* this makes the li elements float to the left, so they will be in a line */
+}
+
+nav a {
+    display: block; /* this makes the links take up the full width of the parent li element */
+    color: white; /* this sets the text color of the links to white */
+    text-align: center; /* this centers the text inside the links */
+    padding: 14px 16px; /* this adds a padding of 14px top/bottom and 16px left/right to the links */
+    text-decoration: none; /* this removes the underline from the links */
+}
+
+nav a:hover {
+    background-color: #111; /* this sets the background color of the links to dark gray when hovered over */
+}
+
+main {
+    padding: 20px; /* this adds a padding of 20px to the main element */
+}
+
+section {
+    background-color: #f2f2f2; /* this sets the background color of the section elements to light gray */
+    padding: 20px; /* this adds a padding of 20px to the section elements */
+    border-radius: 10px; /* this makes the section elements have rounded corners */
+    margin-bottom: 20px; /* this adds a margin of 20px to the bottom of the section elements */
+}
+
+section h2 {
+    text-transform: uppercase; /* this makes the h2 text uppercase */
+    color: #333; /* this sets the text color of the h2 elements to dark gray */
+    margin-top: 0; /* this removes the default margin from the top of the h2 elements */
+}
+
+section p {
+    font-style: italic; /* this makes the text inside the p elements italic */
+    color: #666; /* this sets the text color of the p elements to light gray */
+    margin-bottom: 10px; /* this adds a margin of 10px to the bottom of the p elements */
+}
+
+section ul {
+    list-style-type: none; /* this removes the bullet points from the unordered list */
+    padding: 0; /* this removes the default padding from the ul element */
+}
+
+section li {
+    margin-bottom: 10px; /* this adds a margin of 10px to the bottom of the li elements */
+}
+
+footer {
+    background-color: #ddd; /* this sets the background color of the footer to light gray */
+    padding: 20px; /* this adds a padding of 20px to the footer element */
+    text-align: center; /* this centers the text inside the footer element */
+}
+
+#filter-bar {
+  display: flex; /* This makes the filter elements inside the form display in a row */
+  flex-wrap: wrap; /* This allows the filter elements to wrap to the next line if they don't fit in a single row */
+  align-items: center; /* This aligns the filter elements vertically along the center of the form */
+  padding: 10px; /* This adds 10px of padding to the form */
+  background-color: #f2f2f2; /* This sets the background color of the form to a light gray */
+}
+
+.filter {
+  flex: 1; /* This makes each filter element take up equal amount of space in the row */
+  margin: 10px; /* This adds 10px of margin to each filter element */
+}
+
+.filter label {
+  font-weight: bold; /* This makes the text inside the label element bold */
+}
+
+.filter select {
+  width: 100%; /* This makes the select element take up the full width of its parent element */
+  padding: 5px; /* This adds 5px of padding to the select element */
+  border-radius: 5px; /* This rounds the corners of the select element by 5px */
+  border: 1px solid #ccc; /* This adds a 1px gray border to the select element */
+}
+
+.filter input[type="checkbox"] {
+  margin-right: 5px; /* This adds 5px of margin to the right of the checkbox element */
+}
+
+
